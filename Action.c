@@ -1,8 +1,8 @@
 Action()
 {
-	lr_start_transaction("aa");
+	lr_start_transaction("bb");
 	
-	lr_end_transaction("aa", LR_AUTO);
+	lr_end_transaction("bb", LR_AUTO);
 
 
 	return 0;
